@@ -12,7 +12,7 @@ export const NOT_ITERATOR_ERROR = "runSaga must be called on an iterator"
   memoize the result of storeChannel. It avoids monkey patching the same store
   multiple times unnecessarly. We need only one channel per store
 **/
-const IO = Symbol('IO')
+const IO = 'RUN_SAGA_IO'
 export function storeIO(store) {
 
   if(isDev) {

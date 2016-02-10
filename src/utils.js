@@ -1,4 +1,4 @@
-export const TASK  = Symbol('TASK')
+export const TASK  = 'UTILS_TASK'
 export const kTrue = () => true
 export const noop = () => {}
 

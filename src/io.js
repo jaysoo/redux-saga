@@ -8,7 +8,7 @@ export const CANCEL_ARG_ERROR = "cancel argument must be a valid task (a result 
 export const INVALID_PATTERN = "Invalid pattern passed to `take` (HINT: check if you didn't mispell a constant)"
 
 
-const IO    = Symbol('IO')
+const IO    = 'IO_IO'
 const TAKE    = 'TAKE'
 const PUT     = 'PUT'
 const RACE    = 'RACE'

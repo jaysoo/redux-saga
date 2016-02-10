@@ -12,7 +12,7 @@ export const undefindInputError = name => `
   - if the Saga was started using runSaga, check that your subscribe source provides the action to its listeners
 `
 
-export const CANCEL = Symbol('@@redux-saga/cancelPromise')
+export const CANCEL = '@@redux-saga/cancelPromise'
 export const PARALLEL_AUTO_CANCEL = 'PARALLEL_AUTO_CANCEL'
 export const RACE_AUTO_CANCEL = 'RACE_AUTO_CANCEL'
 export const MANUAL_CANCEL = 'MANUAL_CANCEL'
